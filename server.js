@@ -34,32 +34,32 @@ app.get('/dashboard', passport.authenticate('jwt', {session:false}),(req,res) =>
     data: [
       {
         "name": "Dr. John Doe",
-        "image": "/static/media/appointment.399a9e30.jpg",
+        "image": "https://picsum.photos/300/200",
         "date": "Thursday, March 21, 2019"
       },
       {
         "name": "Dr. John Doe",
-        "image": "/static/media/appointment.399a9e30.jpg",
+        "image": "https://picsum.photos/300/200",
         "date": "Thursday, March 21, 2019"
       },
       {
         "name": "Dr. John Doe",
-        "image": "/static/media/appointment.399a9e30.jpg",
+        "image": "https://picsum.photos/300/200",
         "date": "Thursday, March 21, 2019"
       },
       {
         "name": "Dr. John Doe",
-        "image": "/static/media/appointment.399a9e30.jpg",
+        "image": "https://picsum.photos/300/200",
         "date": "Thursday, March 21, 2019"
       },
       {
         "name": "Dr. John Doe",
-        "image": "/static/media/appointment.399a9e30.jpg",
+        "image": "https://picsum.photos/300/200",
         "date": "Thursday, March 21, 2019"
       },
       {
         "name": "Dr. John Doe",
-        "image": "/static/media/appointment.399a9e30.jpg",
+        "image": "https://picsum.photos/300/200",
         "date": "Thursday, March 21, 2019"
       }
     ]
