@@ -47,6 +47,21 @@ app.get('/dashboard', passport.authenticate('jwt', {session:false}),(req,res) =>
         "image": "/static/media/appointment.399a9e30.jpg",
         "date": "Thursday, March 21, 2019"
       },
+      {
+        "name": "Dr. John Doe",
+        "image": "/static/media/appointment.399a9e30.jpg",
+        "date": "Thursday, March 21, 2019"
+      },
+      {
+        "name": "Dr. John Doe",
+        "image": "/static/media/appointment.399a9e30.jpg",
+        "date": "Thursday, March 21, 2019"
+      },
+      {
+        "name": "Dr. John Doe",
+        "image": "/static/media/appointment.399a9e30.jpg",
+        "date": "Thursday, March 21, 2019"
+      }
     ]
   })
 })
