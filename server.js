@@ -33,20 +33,20 @@ app.get('/dashboard', passport.authenticate('jwt', {session:false}),(req,res) =>
   return res.json({
     data: [
       {
-        "name": "Top Secret Agent 1",
-        "profession": "CIA Operative",
-        "location": "Lebanon"
+        "name": "Dr. John Doe",
+        "image": "/static/media/appointment.399a9e30.jpg",
+        "date": "Thursday, March 21, 2019"
       },
       {
-        "name": "Tom Cruise",
-        "profession": "Black Ops",
-        "location": "Lisbon"
+        "name": "Dr. John Doe",
+        "image": "/static/media/appointment.399a9e30.jpg",
+        "date": "Thursday, March 21, 2019"
       },
       {
-        "name": "James Bond 007",
-        "profession": "MI6 Agent",
-        "location": "London"
-      }
+        "name": "Dr. John Doe",
+        "image": "/static/media/appointment.399a9e30.jpg",
+        "date": "Thursday, March 21, 2019"
+      },
     ]
   })
 })
